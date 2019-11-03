@@ -1,4 +1,8 @@
 
+import os
+import shutil
+
+
 def runtime(t0, t1, newline=True):
     """
     """
@@ -16,3 +20,14 @@ def file_content(path, show_path=True):
     with open(path, 'r') as f:
         content = f.read()
     print(content)
+
+
+def clear_output(shared_dir, folder_out, verbose=True):
+    """
+    """
+    path = os.path.join(shared_dir,
+                        folder_out)
+    if verbose:
+        print(f'delete output folder {path}')
+
+    shutil.rmtree(path)
