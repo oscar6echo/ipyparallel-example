@@ -5,7 +5,7 @@ This example illustrate how to use [**ipyparallel**](https://ipyparallel.readthe
 
 The example is contrived but simple so as to focus on the **ipyparallel** setup and operations.
 
-The notebook is used as a cockpit and as such does not contain any code.  
+The [demo-ipyparallel](https://nbviewer.jupyter.org/github/oscar6echo/ipyparallel-example/blob/master/demo-ipyparallel.ipynb) notebook is used as a cockpit and as such does not contain any code.  
 It just calls on the 2 companion packages below:
 + `my_package`:  
     The demo parallel algo articially slowed down but `sleep()` calls.  
